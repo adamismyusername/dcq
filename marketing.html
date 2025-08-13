@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Marketing Manager - Drip Campaign Quiz</title>
+    <title>Marketing - Drip Campaign Quiz</title>
     <style>
         * {
             margin: 0;
@@ -309,7 +309,7 @@
 <body>
     <div class="container">
         <div class="header">
-            <h1>Marketing Manager Quiz</h1>
+            <h1>Marketing Quiz</h1>
             <p>Drip Campaign Development - Marketing Focus</p>
             <div class="progress-bar">
                 <div class="progress-fill" id="progressFill"></div>
@@ -827,7 +827,7 @@
             const content = document.getElementById('content');
             content.innerHTML = `
                 <div class="welcome-screen">
-                    <h2>Marketing Manager Assessment</h2>
+                    <h2>Marketing Assessment</h2>
                     <p>This quiz focuses on marketing-specific aspects of the drip campaign strategy.</p>
                     <p><strong>${quizData.length} strategic questions</strong> covering email marketing, content strategy, technical infrastructure, and campaign architecture.</p>
                     <p>You can save your progress at any time and download your responses.</p>
@@ -1138,7 +1138,7 @@
         }
 
         function downloadAnswers() {
-            let textContent = "MARKETING MANAGER - DRIP CAMPAIGN QUIZ RESPONSES\n";
+            let textContent = "Marketing - DRIP CAMPAIGN QUIZ RESPONSES\n";
             textContent += "================================================\n\n";
             textContent += `Date: ${new Date().toLocaleDateString()}\n`;
             textContent += `Questions Answered: ${Object.keys(answers).length} of ${quizData.length}\n\n`;
